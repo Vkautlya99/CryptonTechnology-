@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+}
+
+.dashboard {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #555;
+    /* text-align: left; */
+}
+
+.info p {
+    margin: 5px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.percentage {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.percentage.up {
+    color: green;
+}
+
+.percentage.down {
+    color: red;
+}
+
+.icon .arrow-up-right {
+    color: orange;
+}
+
+.icon .cart {
+    color: green;
+}
+
+.icon .dine-in {
+    color: red;
+}
+
+.icon .take-away {
+    color: goldenrod;
+}
